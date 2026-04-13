@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm Lê Hoàng Tân 👋</h1>
 
-<h3 align="center">IoT Enthusiast | Embedded Systems Developer | CS Student at HCMUT</h3>
+<h3 align="center">IoT Enthusiast | Embedded Systems Developer | CE Student at HCMUT</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/l%C3%AA-t%C3%A2n-1388202bb/">
@@ -20,13 +20,14 @@
 
 * 🎓 **Education:** 3rd-year Computer Engineering student at **Ho Chi Minh City University of Technology (HCMUT)** (GPA: 3.4/4.0).
 * 🎯 **Goal:** Passionately pursuing a long-term career path in **Embedded Systems & IoT**, while actively seeking an internship for Summer 2026 in Ho Chi Minh City to apply my skills and grow.
-* 🌱 **Exploring:** Bridging the gap between hardware and software, specifically deploying Machine Learning models on microcontrollers (like my recent Human Activity Recognition project using MPU6050 & ESP32-S3).
+* 🌱 **Exploring:** Bridging the gap between hardware and software, specifically deploying Machine Learning models on microcontrollers.
 
 <br/>
 
 ### 🛠️ Tech Stack & Tools
 
 **Hardware & Embedded:**<br/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
@@ -49,13 +50,18 @@
 ### 🚀 Featured Projects
 
 * 🌐 **[Distributed IoT Gateway](https://github.com/tanlee24/distributed_iot_gateway):** An IoT architecture featuring an ESP32 Gateway and STM32 sensor nodes, utilizing UART and MQTT for real-time data collection and communication.
-* ⚙️ **[RTOS IoT System with TinyML](https://github.com/tanlee24/platformio_rtos_project):** A comprehensive FreeRTOS-based project on ESP32, integrating TinyML for data analysis, ThingsBoard via MQTT for cloud monitoring, and ElegantOTA for seamless over-the-air updates.
+* ⚙️ **[RTOS IoT System with TinyML](https://github.com/tanlee24/platformio_rtos_project):** A comprehensive FreeRTOS-based project on ESP32, integrating TinyML for data analysis, ThingsBoard via MQTT for cloud monitoring, and power optimization for energy saving.
 
 <br/>
 
 ### 📊 GitHub Analytics
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TanLee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=TanLee24&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
+</div> -->
+
+<div align="center">
+  <img src="https://stats.programcx.cn/api?username=TanLee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" alt="GitHub Stats" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=TanLee24&theme=tokyonight&hide_border=true&background=0D1117&v=1" alt="GitHub Streak" width="48%" />
 </div>

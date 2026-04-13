@@ -9,7 +9,7 @@
   <a href="mailto:your-email@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/tanlee24">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
@@ -19,7 +19,7 @@
 ### 👨‍💻 About Me
 
 * 🎓 **Education:** 3rd-year Computer Engineering student at **Ho Chi Minh City University of Technology (HCMUT)** (GPA: 3.4/4.0).
-* 🎯 **Goal:** Actively seeking an **Embedded Systems and IoT Internship** for Summer 2026 in Ho Chi Minh City.
+* 🎯 **Goal:** Passionately pursuing a long-term career path in **Embedded Systems & IoT**, while actively seeking an internship for Summer 2026 in Ho Chi Minh City to apply my skills and grow.
 * 🌱 **Exploring:** Bridging the gap between hardware and software, specifically deploying Machine Learning models on microcontrollers (like my recent Human Activity Recognition project using MPU6050 & ESP32-S3).
 
 <br/>
@@ -48,15 +48,14 @@
 
 ### 🚀 Featured Projects
 
-* 👟 **DO&TAN SNEAKERS:** A full-stack e-commerce web platform developed for a Web Programming course.
-* 🏃‍♂️ **HAR IoT System:** A Human Activity Recognition system utilizing an MPU6050 sensor data processed on an ESP32-S3 microcontroller.
-* 🚗 **Smart Parking Management System (SPMS):** Comprehensive software engineering project utilizing structural design patterns and detailed UML planning.
+* 🌐 **[Distributed IoT Gateway](https://github.com/tanlee24/distributed_iot_gateway):** An IoT architecture featuring an ESP32 Gateway and STM32 sensor nodes, utilizing UART and MQTT for real-time data collection and communication.
+* ⚙️ **[RTOS IoT System with TinyML](https://github.com/tanlee24/platformio_rtos_project):** A comprehensive FreeRTOS-based project on ESP32, integrating TinyML for data analysis, ThingsBoard via MQTT for cloud monitoring, and ElegantOTA for seamless over-the-air updates.
 
 <br/>
 
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TanLee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TanLee24&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
 </div>

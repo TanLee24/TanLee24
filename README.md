@@ -14,7 +14,7 @@
   </a>
 </p>
 
-<img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="AI/Tech GIF">
+<img align="right" width="300" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" alt="AI/Tech GIF">
 
 ### 👨‍💻 About Me
 

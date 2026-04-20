@@ -14,7 +14,7 @@
   </a>
 </p>
 
-<img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding GIF">
+<img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="AI/Tech GIF">
 
 ### 👨‍💻 About Me
 
@@ -49,17 +49,13 @@
 
 ### 🚀 Featured Projects
 
-* 🌐 **[Distributed IoT Gateway](https://github.com/tanlee24/distributed_iot_gateway):** An IoT architecture featuring an ESP32 Gateway and STM32 sensor nodes, utilizing UART and MQTT for real-time data collection and communication.
-* ⚙️ **[RTOS IoT System with TinyML](https://github.com/tanlee24/platformio_rtos_project):** A comprehensive FreeRTOS-based project on ESP32, integrating TinyML for data analysis, ThingsBoard via MQTT for cloud monitoring, and power optimization for energy saving.
+* 🤖 **[ESP32-S3 Multimodal TinyML](https://github.com/TanLee24/esp32-s3-multimodal-tinyml):** An AIoT application deploying Machine Learning models directly on the ESP32-S3 microcontroller. It integrates multimodal inputs, featuring real-time voice command recognition and gesture detection using Edge Impulse.
+* 🌐 **[Distributed IoT Gateway](https://github.com/TanLee24/distributed_iot_gateway):** An IoT architecture featuring an ESP32 Gateway and STM32 sensor nodes, utilizing UART and MQTT for real-time data collection and communication.
+* ⚙️ **[RTOS IoT System with TinyML](https://github.com/TanLee24/platformio_rtos_project):** A comprehensive FreeRTOS-based project on ESP32, integrating TinyML for data analysis, ThingsBoard via MQTT for cloud monitoring, and power optimization for energy saving.
 
 <br/>
 
 ### 📊 GitHub Analytics
-
-<!-- <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TanLee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TanLee24&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
-</div> -->
 
 <div align="center">
   <img src="https://stats.programcx.cn/api?username=TanLee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" alt="GitHub Stats" width="48%" />

@@ -18,7 +18,7 @@
 
 ### 👨‍💻 About Me
 
-* 🎓 **Education:** 3rd-year Computer Engineering student at **Ho Chi Minh City University of Technology (HCMUT)** (GPA: 3.4/4.0).
+* 🎓 **Education:** 4th-year Computer Engineering student at **Ho Chi Minh City University of Technology (HCMUT)** (GPA: 3.5/4.0).
 * 🎯 **Goal:** Passionately pursuing a long-term career path in **Embedded Systems & IoT**, while actively seeking an internship for Summer 2026 in Ho Chi Minh City to apply my skills and grow.
 * 🌱 **Exploring:** Bridging the gap between hardware and software, specifically deploying Machine Learning models on microcontrollers.
 

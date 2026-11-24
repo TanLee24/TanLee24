@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Lê Hoàng Tân — Embedded Systems · IoT · TinyML">
+  <title>Lê Hoàng Tân — Embedded Systems · IoT · TinyML</title>
+  <defs>
+    <clipPath id="card"><rect width="1200" height="300" rx="16"/></clipPath>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1C2128"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0D1117" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0D1117" stop-opacity="0.9"/>
+      <stop offset="0.6" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .trace { fill: none; stroke: #2A313A; stroke-width: 2; stroke-linejoin: round; }
+      .via   { fill: #0D1117; stroke: #3A424D; stroke-width: 2; }
+      .pin   { fill: #59616B; }
+      .pulse { fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 16 1000;
+               stroke-dashoffset: 20; animation: flow 3.2s linear infinite; }
+      .b { stroke: #58A6FF; }
+      .g { stroke: #3FB950; }
+      .d1 { animation-delay: 0s; }   .d2 { animation-delay: .5s; }  .d3 { animation-delay: 1.1s; }
+      .d4 { animation-delay: 1.6s; } .d5 { animation-delay: 2.2s; } .d6 { animation-delay: 2.7s; }
+      .slow { animation-duration: 4.4s; }
+      @keyframes flow { 0% { stroke-dashoffset: 20; } 55% { stroke-dashoffset: -330; } 100% { stroke-dashoffset: -330; } }
+      .blink { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+      .led { animation: led 2s ease-in-out infinite; }
+      @keyframes led { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+      .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', Menlo, monospace; }
+      @media (prefers-reduced-motion: reduce) { .pulse, .blink, .led { animation: none; } .pulse { opacity: 0; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- board -->
+    <rect width="1200" height="300" fill="#0D1117"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+
+    <!-- copper traces -->
+    <g class="trace">
+      <path id="t1"  d="M870,102 H800 L770,72 H700"/>
+      <path id="t2"  d="M870,134 H730"/>
+      <path id="t3"  d="M870,166 H780 L750,196 H690"/>
+      <path id="t4"  d="M870,198 H830 L800,228 H740 L720,248"/>
+      <path id="t5"  d="M1030,110 H1080 L1110,80 H1200"/>
+      <path id="t6"  d="M1030,150 H1200"/>
+      <path id="t7"  d="M1030,190 H1070 L1100,220 H1140"/>
+      <path id="t8"  d="M918,70 V40 L888,10 V0"/>
+      <path id="t9"  d="M966,70 V0"/>
+      <path id="t10" d="M998,70 V45 L1028,15 H1120"/>
+      <path id="t11" d="M902,230 V260 L872,290 V300"/>
+      <path id="t12" d="M950,230 V300"/>
+      <path id="t13" d="M982,230 V255 L1012,285 H1060"/>
+    </g>
+
+    <!-- vias -->
+    <circle class="via" cx="700"  cy="72"  r="5"/>
+    <circle class="via" cx="730"  cy="134" r="5"/>
+    <circle class="via" cx="690"  cy="196" r="5"/>
+    <circle class="via" cx="720"  cy="248" r="5"/>
+    <circle class="via" cx="1140" cy="220" r="5"/>
+    <circle class="via" cx="1120" cy="15"  r="5"/>
+    <circle class="via" cx="1060" cy="285" r="5"/>
+
+    <!-- signals travelling along the traces -->
+    <g filter="url(#glow)">
+      <use href="#t1"  class="pulse b d1"/>
+      <use href="#t3"  class="pulse g d4"/>
+      <use href="#t4"  class="pulse b d6 slow"/>
+      <use href="#t5"  class="pulse g d2"/>
+      <use href="#t6"  class="pulse b d5 slow"/>
+      <use href="#t7"  class="pulse b d3"/>
+      <use href="#t8"  class="pulse g d5"/>
+      <use href="#t10" class="pulse b d1 slow"/>
+      <use href="#t11" class="pulse b d3 slow"/>
+      <use href="#t13" class="pulse g d6"/>
+    </g>
+
+    <!-- MCU package -->
+    <g>
+      <!-- pins: top / bottom -->
+      <g class="pin">
+        <rect x="899" y="70" width="6" height="10" rx="1"/><rect x="915" y="70" width="6" height="10" rx="1"/>
+        <rect x="931" y="70" width="6" height="10" rx="1"/><rect x="947" y="70" width="6" height="10" rx="1"/>
+        <rect x="963" y="70" width="6" height="10" rx="1"/><rect x="979" y="70" width="6" height="10" rx="1"/>
+        <rect x="995" y="70" width="6" height="10" rx="1"/>
+        <rect x="899" y="220" width="6" height="10" rx="1"/><rect x="915" y="220" width="6" height="10" rx="1"/>
+        <rect x="931" y="220" width="6" height="10" rx="1"/><rect x="947" y="220" width="6" height="10" rx="1"/>
+        <rect x="963" y="220" width="6" height="10" rx="1"/><rect x="979" y="220" width="6" height="10" rx="1"/>
+        <rect x="995" y="220" width="6" height="10" rx="1"/>
+        <!-- pins: left / right -->
+        <rect x="870" y="99"  width="10" height="6" rx="1"/><rect x="870" y="115" width="10" height="6" rx="1"/>
+        <rect x="870" y="131" width="10" height="6" rx="1"/><rect x="870" y="147" width="10" height="6" rx="1"/>
+        <rect x="870" y="163" width="10" height="6" rx="1"/><rect x="870" y="179" width="10" height="6" rx="1"/>
+        <rect x="870" y="195" width="10" height="6" rx="1"/>
+        <rect x="1020" y="99"  width="10" height="6" rx="1"/><rect x="1020" y="115" width="10" height="6" rx="1"/>
+        <rect x="1020" y="131" width="10" height="6" rx="1"/><rect x="1020" y="147" width="10" height="6" rx="1"/>
+        <rect x="1020" y="163" width="10" height="6" rx="1"/><rect x="1020" y="179" width="10" height="6" rx="1"/>
+        <rect x="1020" y="195" width="10" height="6" rx="1"/>
+      </g>
+      <rect x="880" y="80" width="140" height="140" rx="10" fill="#161B22" stroke="#3A424D" stroke-width="2"/>
+      <rect x="894" y="94" width="112" height="112" rx="6" fill="none" stroke="#262C34" stroke-width="1.5"/>
+      <circle cx="900" cy="100" r="4.5" fill="#3A424D"/>
+      <text x="950" y="152" text-anchor="middle" class="mono" font-size="22" font-weight="700" fill="#C9D1D9">TAN-24</text>
+      <text x="950" y="174" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#6E7681">EMBEDDED · IoT</text>
+    </g>
+
+    <!-- heartbeat LED -->
+    <g>
+      <rect x="1104" y="246" width="34" height="18" rx="3" fill="#161B22" stroke="#3A424D" stroke-width="1.5"/>
+      <circle cx="1121" cy="255" r="5" fill="#3FB950" class="led" filter="url(#glow)"/>
+      <text x="1121" y="282" text-anchor="middle" class="mono" font-size="10" fill="#6E7681">D1</text>
+    </g>
+
+    <!-- keep the text side clean -->
+    <rect width="1200" height="300" fill="url(#fade)"/>
+
+    <!-- text -->
+    <text x="72" y="90" class="mono" font-size="18" fill="#3FB950">&gt; hello, world<tspan class="blink" fill="#3FB950">█</tspan></text>
+    <text x="70" y="154" class="sans" font-size="58" font-weight="700" fill="#F0F6FC" letter-spacing="-0.5">Lê Hoàng Tân</text>
+    <text x="72" y="198" class="mono" font-size="21" fill="#C9D1D9">Embedded Systems<tspan fill="#58A6FF"> · </tspan>IoT<tspan fill="#58A6FF"> · </tspan>TinyML</text>
+    <text x="72" y="238" class="sans" font-size="17" fill="#8B949E">Computer Engineering @ HCMUT  —  Ho Chi Minh City, Vietnam</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="298" rx="15.5" fill="none" stroke="#30363D" stroke-width="2"/>
+</svg>
